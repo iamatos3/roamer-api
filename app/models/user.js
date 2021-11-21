@@ -1,4 +1,6 @@
 const mongoose = require('mongoose')
+// extract the Schema
+// const Schema = mongoose.Schema
 
 const userSchema = new mongoose.Schema({
   email: {
@@ -10,8 +12,21 @@ const userSchema = new mongoose.Schema({
     type: String,
     required: true
   },
+  name: {
+    type: String,
+    required: true
+  },
+  address: {
+    type: String,
+    required: true
+  },
+  // owner: {
+  //   type: Schema.Types.ObjectId,
+  //   ref: 'User'
+  // },
   token: String
-}, {
+},
+{
   timestamps: true,
   toJSON: {
     // remove `hashedPassword` field when we call `.toJSON`
