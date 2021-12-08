@@ -40,4 +40,4 @@ I initially planned to make this app into a safe space where pet owners can comm
 ## Images
 
 #### ERD:
-![Roamer ERD](https://imgur.com/noAV6cj)
+![Roamer ERD](http![Roamer_ERD](https://user-images.githubusercontent.com/88846920/145131287-f09b4221-6f0d-4e6f-83b1-aae69cfda814.png)
